@@ -1,0 +1,6 @@
+{
+  "name": "TheArkRooms",
+  "description": "Event accommodation and travel platform connecting event attendees with trusted stays near venues.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="carBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E7A5E" />
+      <stop offset="100%" stop-color="#2ca682" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  
+  <!-- Subtle road -->
+  <line x1="100" y1="380" x2="700" y2="380" stroke="#334155" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Modern Sedan Silhouette -->
+  <g transform="translate(140, 150)">
+    <!-- Main Car Body -->
+    <path d="M 40 180 
+             C 40 160, 60 140, 90 135 
+             L 150 130 
+             C 180 130, 230 70, 280 65 
+             L 370 65 
+             C 420 65, 460 115, 490 130 
+             L 510 145 
+             C 530 155, 530 180, 520 195 
+             L 490 200 
+             C 480 200, 470 170, 440 170 
+             C 410 170, 400 200, 390 200 
+             L 190 200 
+             C 180 200, 170 170, 140 170 
+             C 110 170, 100 200, 90 200 
+             L 40 195 Z" 
+          fill="url(#carBody)" />
+          
+    <!-- Windows -->
+    <path d="M 235 125 
+             L 280 78 
+             L 330 78 
+             L 330 125 Z" 
+          fill="#e2e8f0" opacity="0.85" />
+    <path d="M 345 125 
+             L 345 78 
+             L 375 78 
+             C 410 78, 440 115, 455 125 Z" 
+          fill="#e2e8f0" opacity="0.85" />
+          
+    <!-- Wheels -->
+    <circle cx="140" cy="195" r="32" fill="#020617" stroke="#64748b" stroke-width="4" />
+    <circle cx="140" cy="195" r="16" fill="#94a3b8" />
+    
+    <circle cx="440" cy="195" r="32" fill="#020617" stroke="#64748b" stroke-width="4" />
+    <circle cx="440" cy="195" r="16" fill="#94a3b8" />
+    
+    <!-- Headlight & Taillight -->
+    <path d="M 505 152 L 522 165 L 500 168 Z" fill="#fef08a" />
+    <path d="M 40 162 L 48 162 L 46 172 L 40 170 Z" fill="#ef4444" />
+  </g>
+  
+  <!-- Text Label -->
+  <text x="400" y="430" text-anchor="middle" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" letter-spacing="1">
+    EXECUTIVE CAR SERVICE
+  </text>
+</svg>
